@@ -77,6 +77,18 @@ ul,.nav_down {
     padding-left: 0;
 }
 
+/*detail for this page*/
+
+.layout h1 {
+    background-color: white;
+    height: 500;
+    width: 400;
+    margin: 0;
+    margin-top: 5005;
+    
+
+}
+
 /* dropdown */
 
 .nav_down li ul {
