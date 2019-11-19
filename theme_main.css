@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    padding: 0;
+    /*background: linear-gradient(to left, #FFFFFF,#4CBC94); */
+   background-image: url('bg.png');
+   background-size: cover;
+}
+
+@font-face {
+    font-family: 'RSU_Regular';
+    src: url('fonts/RSU_Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+ul,.nav_down {
+    font-family: 'RSU_Regular';
+ }
+
+.nav_top {
+    padding-top:5px !important; 
+    padding-bottom:5px !important;
+    min-height: 50!important;
+}
+
+.nav_down ul {
+    list-style: none;
+    background-color: #4e605f;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    height: auto;
+    width: 100%;
+    position: fixed;
+}
+
+.nav_down li {
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.1em;
+    display: inline-block;
+    margin-right: -4px;
+    text-align: center;
+    width: 300px;
+}
+
+.nav_down a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding-left: 15px;
+    border-bottom: 1px solid #506463;
+    transition: .3s;
+    border-bottom: none;
+    text-align: center;
+}
+
+.nav_down a:hover {
+    background-color: #4CBC94;
+}
+
+.nav_down > ul > li {
+    text-align: center;
+}
+
+.nav_down > ul > li > a {
+    padding-left: 0;
+}
+
+.click {
+    position: absolute;
+    float: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    top: -70px;
+    left: 250px;
+    font-size: 35px;
+    font-family: 'RSU_Regular';
+    background-color: rgb(66, 167, 131);
+    border-radius: 10px;
+    color: white;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.10), 0 2px 5px 0 rgba(0,0,0,0.19);
+    height: 75px;
+}
+
+.text1{
+    position: absolute;
+    float: center;
+    font-size: 20px;
+    top: 10px;
+    left: 10px;
+    color: rgb(121, 133, 122);
+    font-family: 'RSU_Regular';
+    width: 200px;
+    border: none;
+}
+
+.text2{
+    position: absolute;
+    float: center;
+    font-size: 20px;
+    top: 42px;
+    left: -210px;
+    color: rgb(121, 133, 122);
+    font-family: 'RSU_Regular';
+    width: 218px;
+    border: none;
+}
+
+/* dropdown */
+
+.nav_down li ul {
+    position: absolute;
+    display: none;
+    width: inherit;
+}
+
+.nav_down li:hover ul {
+    display: block;
+}
+
+.nav_down li ul li{
+    display: block;
+}
