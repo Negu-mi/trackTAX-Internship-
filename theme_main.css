@@ -1,9 +1,9 @@
 body {
     margin: 0;
     padding: 0;
+    background-image: url('element/bg.png');
     /*background: linear-gradient(to left, #FFFFFF,#4CBC94); */
-   background-image: url('element/bg.png');
-   background-size: cover;
+    background-size: cover;
 }
 
 @font-face {
@@ -69,44 +69,73 @@ ul,.nav_down {
     padding-left: 0;
 }
 
-.click {
-    position: absolute;
-    float: center;
-    padding-left: 30px;
-    padding-right: 30px;
-    top: -70px;
-    left: 250px;
-    font-size: 35px;
-    font-family: 'RSU_Regular';
+  .click {
+    display: inline-block;
+    border-radius: 20px;
     background-color: rgb(66, 167, 131);
-    border-radius: 10px;
-    color: white;
-    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.10), 0 2px 5px 0 rgba(0,0,0,0.19);
-    height: 75px;
-}
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 35px;
+    padding: 12px;
+    width: 320px;
+    height: 70px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 200px;
+    font-family: 'RSU_Regular';
+    margin-top: 120px;
+  }
+  
+  .click span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .click span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .click:hover span {
+    padding-right: 30px;
+  }
+  
+  .click:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
 
 .text1{
     position: absolute;
     float: center;
     font-size: 20px;
-    top: 10px;
-    left: 10px;
     color: rgb(121, 133, 122);
     font-family: 'RSU_Regular';
     width: 200px;
     border: none;
+    background: transparent;
+    top: -240px;
+    left: 1030px;
 }
 
 .text2{
     position: absolute;
     float: center;
     font-size: 20px;
-    top: 42px;
-    left: -210px;
+    top: -207px;
+    left: 815px;
     color: rgb(121, 133, 122);
     font-family: 'RSU_Regular';
     width: 218px;
     border: none;
+    background: transparent;
 }
 
 /* dropdown */

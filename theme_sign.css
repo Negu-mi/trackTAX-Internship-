@@ -12,6 +12,20 @@ body {
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'QuattrocentoSans-Regular';
+    src: url('fonts/QuattrocentoSans-Regular.otf') format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ReemKufi-Regular';
+    src: url('ReemKufi-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 ul,.nav_down {
     font-family: 'RSU_Regular';
  }
@@ -28,8 +42,58 @@ ul,.nav_down {
     position: relative;
     background: transparent;
     border: none;
-    color: rgb(226, 225, 225);
+    color: rgb(235, 235, 235); 
 }
+
+/* Start Content */
+
+.layout {
+    background: rgb(255, 255, 255);
+    border-radius: 40px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 530px;
+    height: 500px;
+    width: 500px;
+
+    
+}
+
+.layout ul {
+    list-style: none;
+    text-align: center;
+    background: transparent;
+    padding: 0;
+    margin: 0;
+    margin-top: 15px;
+}
+
+.sub-topic {
+    color: #4CBC94;
+    font-size: 30px;
+    margin-top: 40px;
+    text-align: center;
+    border: none;
+}
+
+.btn.btn-danger {
+    border-radius: 30px!important;
+    font-family: 'RSU_Regular'; 
+}
+
+.form-control {
+    width: 250px;
+    margin-left: 125px;
+    
+}
+
+.or {
+    
+    
+}
+
+
+/*End Content*/
 
 .nav_down ul {
     list-style: none;
