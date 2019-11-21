@@ -69,6 +69,10 @@ ul,.nav_down {
     padding-left: 0;
 }
 
+.btn.btn-primary {
+    border: none;
+}
+
   .click {
     display: inline-block;
     border-radius: 20px;

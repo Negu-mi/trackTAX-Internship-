@@ -45,6 +45,10 @@ ul,.nav_down {
     color: rgb(235, 235, 235); 
 }
 
+.btn.btn-primary {
+    border: none;
+}
+
 /* Start Content */
 
 .layout {
@@ -79,18 +83,54 @@ ul,.nav_down {
 .btn.btn-danger {
     border-radius: 30px!important;
     font-family: 'RSU_Regular'; 
+    font-size: 17px;
 }
 
 .form-control {
     width: 250px;
-    margin-left: 125px;
-    
+    margin-left: 125px; 
+}
+
+.ok botton.btn.btn-primary {
+    line-height: 20px;
+    border-radius: 30px!important;
+    border: none;
+}
+
+.or hr{
+    border-style: solid;
+    border-width: 0.5px;
+    color: rgb(119, 119, 119);      
 }
 
 .or {
-    
-    
+    margin-left: 80px;
+    margin-top: 20px;
 }
+
+.text1 {
+    margin-top: 4px;
+    float: left;
+    width: 20%;
+    color: rgb(119, 119, 119);
+    font-size: 17px;
+}
+
+.forget {
+    margin-right: -184px;
+    line-height: 6px;
+}
+
+.regis {
+    float: left;
+    margin-left: 8px ;
+}
+
+.end {
+    margin-left: 180px;
+    color: rgb(119, 119, 119);
+}
+
 
 
 /*End Content*/
