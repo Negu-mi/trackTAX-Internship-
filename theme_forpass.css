@@ -49,6 +49,7 @@ ul,.nav_down {
     background: transparent;
     border: none;
     color: rgb(236, 236, 236); 
+    font-family: 'QuattrocentoSans-Regular';
 }
 
 .btn.btn-primary {
@@ -61,19 +62,45 @@ ul,.nav_down {
     background: rgb(247, 247, 247);
     border-radius: 40px;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 80px;
     margin-left: 530px;
-    height: 500px;
-    width: 500px;   
+    height: 365px;
+    width: 485px;   
 }
 
-.sub-topic {
-    color: rgb(60, 204, 154);
-    font-size: 33px;
-    margin-top: 40px;
-    text-align: center;
+.logo {
+    position: absolute;
+    margin-top: -65px;
+    margin-left: -20%;
+}
+
+.detail input {
+    color: rgb(119, 119, 119);
+    font-size: 16px;
     border: none;
-    background: transparent;    
+    background: transparent;
+    text-align: center;
+    width: 400px;
+    margin-top: -10px;
+}
+
+.layout input.text2 {
+    border: none;
+    background: transparent;
+    text-align: center; 
+    margin-top: -5px;
+}
+
+.layout input.text3 {
+    color: rgb(119, 119, 119);
+    font-size: 19px;
+    border: none;
+    background: transparent;
+    text-align: center;
+    width: 400px;
+    margin-left: -207px;
+    margin-top: 30px;
+    font-family: 'RSU_Regular'; 
 }
 
 .layout ul {
@@ -82,59 +109,18 @@ ul,.nav_down {
     background: transparent;
     padding: 0;
     margin: 0;
-    margin-top: 13px;
-}
-
-.btn.btn-danger {
-    border-radius: 30px!important;
-    font-family: 'RSU_Regular'; 
-    font-size: 18px;
-}
-
-.insert {
-    margin-top: -8px;
+    margin-top: 100px;
+    position: absolute;
+    margin-left: 42px;
 }
 
 .form-control {
-    width: 250px;
-    margin-left: 125px; 
-    margin-top: 13px;
+    width: 317px;
+    margin-left: 45px; 
+    margin-top: 8px;
 }
 
-.or hr{
-    border-style: solid;
-    border-width: 0.5px;
-    color: rgb(119, 119, 119);      
-}
-
-.or {
-    margin-left: 80px;
-    margin-top: 20px;
-}
-
-.text1 {
-    margin-top: 4px;
-    float: left;
-    width: 20%;
-    color: rgb(119, 119, 119);
-    font-size: 17px;
-}
-
-.forget {
-    line-height: 4px;
-}
-
-.forget a {
-    margin-right: -177px;
-    font-size: 17px;
-    color: rgb(60, 204, 154);
-}
-
-.forget:hover a {
-    text-decoration: none;
-}
-
-.accept {
+.continued {
     display: inline-block;
     border-radius: 20px;
     background-color: #45C773;
@@ -145,28 +131,11 @@ ul,.nav_down {
     padding: 12px;
     transition: all 0.5s;
     cursor: pointer;
-    width: 25%;
-    margin-top: 8px;
+    width: 37%;
+    margin-top: 28px;
     border-radius: 30px!important;
-    line-height: 13px;
-  }
-
-.login a {
-    float: left;
-    margin-left: 8px ;
-    color: rgb(60, 204, 154);
-}
-
-.login:hover a {
-    text-decoration: none;
-}
-
-.end {
-    margin-left: 172px;
-    color: rgb(119, 119, 119);
     line-height: 15px;
-    font-size: 17px;
-}
+  }
 
 /*End Content*/
 
@@ -214,16 +183,6 @@ ul,.nav_down {
 
 .nav_down > ul > li > a {
     padding-left: 0;
-}
-
-/*detail for this page*/
-
-.layout h1 {
-    background-color: white;
-    height: 500;
-    width: 400;
-    margin: 0;
-    margin-top: 5005;
 }
 
 /* dropdown */
