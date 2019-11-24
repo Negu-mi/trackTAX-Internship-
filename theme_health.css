@@ -77,6 +77,7 @@ ul,.insert {
     padding: 0;
     margin: 0;
     margin-top: 18px;
+    margin-left: 70px;
 }
 
 .insert {
@@ -101,14 +102,13 @@ ul,.insert {
     width: 100%;
     background: none;
     border: none;
-    -webkit-appearance: none;
     padding: 0 50px 0 20px;
     cursor: pointer;
     text-indent: 5px;
     color: rgb(119, 119, 119);
     border-radius: 6px;
 }
-
+  
 .sex {
     position: relative;
     background: white;
@@ -145,7 +145,8 @@ ul,.insert {
     font-size: 17px;
     margin-top: 20px;
     margin-left: 50px;
-    color: rgb(56, 56, 56);
+    color: rgb(0, 161, 105);
+    border-style: bold;
 }
 
 .check1 {
@@ -233,9 +234,161 @@ ul,.insert {
   height: 10px;
   border: solid white;
   border-width: 0 2px 2px 0;
-  -webkit-transform: rotate(45deg);
+  -webkit-transform: rotate(20deg);
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
+}
+
+.sort {
+    margin-top: -166px;
+    margin-right: 810px;
+}
+
+.text2 {
+    font-size: 20px;
+    color: rgb(56, 56, 56);
+}
+
+.area {
+    background-color: rgb(58, 209, 146);
+    width: 140px;
+    height: 30px;
+    margin-top: -47px;
+    margin-left: 440px;
+    border-radius: 30px;
+}
+
+.text3 {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    margin-top: -50px;
+    margin-left: -68px;
+}
+
+.bank {
+    background: rgb(253, 253, 253);
+    width: 1010px;
+    height: 180px;
+    margin-left: 310px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 0.5px solid rgb(202, 202, 202);
+}
+
+.bangkok_logo {
+    position: absolute;
+    margin-left: -920px;
+    margin-top: 20px;
+}
+
+.text4 {
+    position: absolute;
+    font-size: 35px;
+    color: rgb(50, 211, 197);
+    margin-top: 15px;
+    margin-left: 150px;
+    font-weight: 550;  
+}
+
+.text5 {
+    position: absolute;
+    color: rgb(126, 126, 126);
+    font-size: 20px;
+    margin-top: 57px;
+    margin-left: 152px;
+    border-style: bold;
+}
+
+.tap {
+    position: absolute;
+    margin-left: -792px;
+    margin-top: 90px
+}
+
+.text6 {
+    position: absolute;
+    color: rgb(126, 126, 126);
+    font-size: 15px;
+    margin-top: 125px;
+    margin-left: 153px;
+}
+
+.text7 {
+    position: relative;
+    color: rgb(126, 126, 126);
+    font-size: 18px;
+    margin-top: -162px;
+    margin-left: 540px;
+    float: left;
+}
+
+.text8 {
+    position: absolute;
+    color: rgb(109, 109, 109);
+    font-size: 25px;
+    margin-top: 50px;
+    margin-left: 540px;
+    font-weight: bold;
+}
+
+.text9 {
+    position: relative;
+    color: rgb(126, 126, 126);
+    font-size: 18px;
+    margin-top: -100px;
+    margin-left: 540px;
+    float: left;
+}
+
+.text10 {
+    position: absolute;
+    color: rgb(109, 109, 109);
+    font-size: 25px;
+    margin-top: 113px;
+    margin-left: 540px;
+    font-weight: bold;
+}
+.cost{
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 860px;
+    background: rgb(255, 255, 255);
+    width: 165px;
+    height: 80px;
+    box-shadow: -4px 3px 10px #4fa77b;
+    border-radius: 10px;
+}
+
+.text11 {
+    position: relative;
+    color: rgb(126, 126, 126);
+    font-size: 18px;
+    margin-top: 8px;
+
+}
+
+.text12 {
+    position: relative;
+    color: rgb(0, 204, 126);
+    font-size: 35px;
+    line-height: 40px;
+    font-weight: bold;
+}
+
+.bot1{
+    margin-left: -160px;
+    margin-top: 50px;
+    display: inline-block; 
+    overflow: auto;
+    position: absolute;
+}
+
+.bot2 {
+    margin-left: -160px;
+    margin-top: 95px;
+    display: inline-block; 
+    overflow: auto;
+    position: absolute;
 }
 
 /*End Content*/
