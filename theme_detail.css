@@ -123,6 +123,158 @@ ul,.nav_down {
     position: absolute;
 }
 
+.bg {
+    background-color: rgb(247, 247, 247);
+    width: 1630px;
+    margin-top: 250px;
+    margin-left: -800px;
+    height: 470px;
+}
+
+.top_left {
+    margin-left: 600px;
+    margin-top: 10px;
+    
+}
+
+.top_right {
+    margin-left: 1020px;
+    margin-top: -95px;
+}
+
+.text4 {
+    margin-top: 25px;
+    margin-left: 550px;
+    font-family: 'RSU_Regular';
+    list-style: none;
+    border: none;
+    color: rgb(0, 206, 137);
+    background: transparent;
+    font-size: 29px;
+    font-weight: bold;
+}
+
+.text5 {
+    font-family: 'RSU_Regular';
+    list-style: none;
+    border: none;
+    color: rgb(119, 119, 119);
+    background: transparent;
+    width: 500px;
+    font-size: 18px;
+    line-height: 30px;    
+}
+
+.text6 {
+    font-family: 'RSU_Regular';
+    list-style: none;
+    border: none;
+    color: rgb(119, 119, 119);
+    background: transparent;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 30px; 
+    height: 100%;
+    width: 100%;
+    margin-left: 81px;
+}
+
+.text7 {
+    font-family: 'RSU_Regular';
+    list-style: none;
+    border: none;
+    color: rgb(119, 119, 119);
+    background: transparent;
+    font-size: 18px;
+    font-weight: bold;
+    height: 100%;
+    width: 100%;
+    margin-left: -100px;
+    margin-top: 6px;
+}
+
+.text8 {
+    font-family: 'RSU_Regular';
+    list-style: none;
+    border: none;
+    color: rgb(119, 119, 119);
+    background: transparent;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 30px; 
+    height: 100%;
+    width: 100%;
+    margin-left: 108px;
+}
+
+.bg hr {
+    margin-left: 525px;
+    margin-top: 40px;
+    border: 1px solid #aaaaaa;
+}
+
+.text9 {
+    margin-top: 25px;
+    margin-left: 550px;
+    font-family: 'RSU_Regular';
+    list-style: none;
+    border: none;
+    color: rgb(121, 121, 121);
+    background: transparent;
+    font-size: 29px;
+    font-weight: bold;
+    margin-left: -450px;
+    margin-top: 80px;
+}
+
+.text10 {
+    font-family: 'RSU_Regular';
+    list-style: none;
+    border: none;
+    color: rgb(119, 119, 119);
+    background: transparent;
+    width: 500px;
+    font-size: 22px;
+    line-height: 30px; 
+    margin-left: 600px;   
+    font-weight: bold;
+}
+
+.text11 {
+    font-family: 'RSU_Regular';
+    list-style: none;
+    border: none;
+    color: rgb(119, 119, 119);
+    background: transparent;
+    width: 500px;
+    font-size: 18px;
+    line-height: 30px;  
+    margin-left: 600px;  
+}
+
+.mini {
+    margin-top: 10px;
+}
+
+.down_right {
+    margin-top: -60px;
+    margin-left: 1045px;
+}
+
+.text12 {
+    font-family: 'RSU_Regular';
+    list-style: none;
+    border: none;
+    color: rgb(119, 119, 119);
+    background: transparent;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 30px; 
+    height: 100%;
+    width: 100%;
+    margin-left: 46px;
+}
+
 /*End Content*/
 
 .nav_down ul {
