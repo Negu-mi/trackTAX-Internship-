@@ -54,7 +54,14 @@ ul,.nav_down {
 .btn.btn-primary {
     border: none;
 }
+.btn.btn-primary a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
 
+  .service {
+    color: white;
+}
 /* Start Content */
 
 .layout {
@@ -98,7 +105,11 @@ ul,.nav_down {
 .form-control {
     width: 250px;
     margin-left: 125px; 
-    margin-top: 13px;
+    margin-top: 0px;
+}
+
+.insert input {
+    margin-top: 10px;
 }
 
 .or hr{

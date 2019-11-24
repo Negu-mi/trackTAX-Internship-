@@ -55,7 +55,14 @@ ul,.nav_down {
 .btn.btn-primary {
     border: none;
 }
+.btn.btn-primary a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
 
+  .service {
+    color: white;
+}
 /* Start Content */
 
 .layout {
@@ -136,6 +143,11 @@ ul,.nav_down {
     border-radius: 30px!important;
     line-height: 15px;
   }
+
+.continued a {
+    color: white;
+    text-decoration: none;
+}
 
 /*End Content*/
 

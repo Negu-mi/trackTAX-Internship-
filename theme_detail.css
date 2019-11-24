@@ -30,7 +30,7 @@ ul,.nav_down {
     font-family: 'RSU_Regular';
  }
 
-.nav_down {
+ .nav_down {
     position: relative;
     z-index: 2;
     width: 100%;
@@ -49,7 +49,6 @@ ul,.nav_down {
     background: transparent;
     border: none;
     color: rgb(236, 236, 236); 
-    font-family: 'QuattrocentoSans-Regular';
 }
 
 .btn.btn-primary {
@@ -66,98 +65,62 @@ ul,.nav_down {
 /* Start Content */
 
 .layout {
-    background: rgb(247, 247, 247);
-    border-radius: 40px;
-    text-align: center;
-    margin-top: 80px;
-    margin-left: 530px;
-    height: 375px;
-    width: 488px;   
-}
-
-.logo {
+    margin-top: 0px;
+    margin-left: 0px;
     position: absolute;
-    margin-top: -65px;
-    margin-left: -98px;
+    background: linear-gradient(to left, #15A387,#ffffff); 
+    width: 100%;
+    height: 161px;
 }
 
-.layout ul {
-    list-style: none;
-    text-align: center;
-    background: transparent;
-    padding: 0;
-    margin: 0;
-    margin-top: 100px;
-    position: absolute;
-    margin-left: 42px;
+.head {
+    margin-left: 50px;
 }
 
-.detail1 {
-    margin-left: -23%;
-}
-
-.detail2 {
-    margin-left: -17%;
-    margin-top: 25px;
-}
-
-.detail3 {
-    margin-left: -25%;
-    margin-top: 5px;
-}
-
-.detail3 li {
-    margin-top: -2px;
-}
-
-.detail3 li.text2 {
-    margin-top: -8px;
-}
-
-.detail4 {
-    line-height: 12px;
-    margin-top: -0px;
-    margin-left: -40px;
-}
-
-.line {
-    margin-left: -10px;
+.layout img {
+    margin-top: -50px;
+    margin-left: 300px;
 }
 
 .text1 {
-    margin-left: 172px;
-    color: rgb(119, 119, 119);
-    line-height: 15px;
-    font-size: 17px;
+    position: absolute;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    margin-top: -115px;
+    margin-left: 450px;
+    font-weight: 550;  
+    font-family: 'RSU_Regular';
+    list-style: none;
+    text-shadow: 2px 2px 2px rgb(0, 148, 118);
 }
 
 .text2 {
-    color: rgb(60, 204, 154);
-    font-size: 17px;
-    margin-top: -5px;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin-top: -70px;
+    margin-left: 453px;
+    font-family: 'RSU_Regular';
+    list-style: none;
+    text-shadow: 2px 2px 2px rgb(0, 148, 118);
 }
 
 .text3 {
-    color: rgb(60, 204, 154);
-    font-size: 17px;
-    margin-top: -6px;
-    margin-left: 8px;
+    position: absolute;
+    font-size: 37px;
+    color: rgb(0, 133, 106);
+    margin-top: -45px;
+    margin-left: 450px;
+    font-weight: 550;  
+    font-family: 'RSU_Regular';
+    list-style: none;
+    text-shadow: 2px 2px 2px rgb(255, 255, 255);
 }
 
-.text4 {
-    color: rgb(60, 204, 154);
-    font-size: 28px;   
-    background: transparent;
-    text-align: center;
-    border: none;
-    margin-left: -30px;
-}
-
-.text5 {
-    margin-left: 10px;
-    color: rgb(119, 119, 119);
-    line-height: 10px;
-    font-size: 17px;
+.choose{
+    margin-top: -65px;
+    margin-left: 690px;
+    position: absolute;
 }
 
 /*End Content*/
@@ -206,6 +169,16 @@ ul,.nav_down {
 
 .nav_down > ul > li > a {
     padding-left: 0;
+}
+
+/*detail for this page*/
+
+.layout h1 {
+    background-color: white;
+    height: 500;
+    width: 400;
+    margin: 0;
+    margin-top: 5005;
 }
 
 /* dropdown */
