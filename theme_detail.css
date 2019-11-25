@@ -32,7 +32,7 @@ ul,.nav_down {
 
  .nav_down {
     position: relative;
-    z-index: 2;
+    z-index: 1;
     width: 100%;
 }
 
@@ -65,12 +65,12 @@ ul,.nav_down {
 /* Start Content */
 
 .layout {
-    margin-top: 0px;
-    margin-left: 0px;
     position: absolute;
-    background: linear-gradient(to left, #15A387,#ffffff); 
+    background: linear-gradient(to left, #15A387,#ffffff);  
     width: 100%;
     height: 161px;
+    padding:0px;
+    margin: 0px;
 }
 
 .head {
@@ -124,11 +124,17 @@ ul,.nav_down {
 }
 
 .bg {
-    background-color: rgb(247, 247, 247);
-    width: 1630px;
-    margin-top: 250px;
+    margin-top: -480px;
     margin-left: -800px;
     height: 470px;
+    position: relative;
+}
+
+.white {
+    margin-top: 250px;
+    width: 980px;
+    margin-left: -400px;
+    height: 500px;
 }
 
 .top_left {
@@ -208,14 +214,13 @@ ul,.nav_down {
 }
 
 .bg hr {
-    margin-left: 525px;
+    margin-left: 590px;
     margin-top: 40px;
     border: 1px solid #aaaaaa;
 }
 
 .text9 {
     margin-top: 25px;
-    margin-left: 550px;
     font-family: 'RSU_Regular';
     list-style: none;
     border: none;
@@ -223,8 +228,9 @@ ul,.nav_down {
     background: transparent;
     font-size: 29px;
     font-weight: bold;
-    margin-left: -450px;
+    margin-left: -390px;
     margin-top: 80px;
+    position: absolute;
 }
 
 .text10 {
