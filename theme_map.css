@@ -67,6 +67,15 @@ ul,.nav_down {
 
 /* Start Content */
 
+#map {
+    margin-top: 10px;
+    margin-left: 400px;
+}
+
+#floating-panel {
+    margin-top: 60px;
+    margin-left: 400px;
+}
 
 
 /*End Content*/

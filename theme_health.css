@@ -214,7 +214,7 @@ ul,.insert {
 
 /* On mouse-over, add a grey background color */
 .container:hover input ~ .checkmark {
-  background-color: rgb(78, 214, 151);
+  background-color: rgb(132, 247, 191);
 }
 
 /* When the checkbox is checked, add a blue background */
