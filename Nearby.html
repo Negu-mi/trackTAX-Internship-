@@ -77,8 +77,9 @@
   <!--Start detail of this page-->
 
   <div id="floating-panel">
-    <input id="address" type="text" value="กรุงเทพมหานคร">
-    <input id="submit" type="button" value="ค้นหาข้อมูล">
+    <input id="address" class="form-control mr-sm-2" type="text" placeholder="Ex. กรมสรรพากรเชียงใหม่" aria-label="Search">
+    <button id="submit" class="btn btn-primary my-2 my-sm-0" type="submit" style="background-color: rgb(66, 167, 131)">Search</button>
+    
   </div>
 
   <div id="map"></div>
@@ -88,8 +89,13 @@
   function initMap() {
   maps = new google.maps.Map(document.getElementById('map'), {
   center: position,
-  zoom: 10
+  zoom: 18,
+  mapTypeId:google.maps.MapTypeId.ROADMAP
   });
+  var marker = new google.maps.Marker({
+    position: submit,
+    map:map,
+  })
   var geocoder = new google.maps.Geocoder();
   document.getElementById('submit').addEventListener('click',function(){
     geocodeAddress(geocoder,maps);
@@ -114,6 +120,7 @@
   </script>
   <script src=" https://maps.googleapis.com/maps/api/js?key=AIzaSyDmdNT9453EW8sdMPanpyFLj7fkBa_KjuU&callback=initMap"
   async defer></script>
+
 
 
   <!--End detail of this page-->

@@ -69,12 +69,19 @@ ul,.nav_down {
 
 #map {
     margin-top: 10px;
-    margin-left: 400px;
+    margin-left: 300px;
 }
 
 #floating-panel {
-    margin-top: 60px;
-    margin-left: 400px;
+    margin-top: 45px;
+    margin-left: 300px;
+}
+
+.form-control {
+    width: 820px;
+    margin-left: 0px; 
+    margin-top: 0px;
+    float: left;
 }
 
 
