@@ -121,7 +121,7 @@ ul,.nav_down {
     margin-left: 42px;
 }
 
-.form-control {
+.layout input.form-control {
     width: 317px;
     margin-left: 45px; 
     margin-top: 8px;
